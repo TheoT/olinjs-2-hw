@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	h1= title
+	div
+		each cat in cats
+			div Name: #{cat.name}, Age: #{cat.age}, Colors: #{cat.colors}
